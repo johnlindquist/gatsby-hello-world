@@ -1,0 +1,23 @@
+{
+  "name": "gatsby-hello-world",
+  "description": "Gatsby Hello World",
+  "version": "0.1.0",
+  "author": "John Lindquist",
+  "dependencies": {
+    "gatsby": "^2.1.22",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  }
+}
